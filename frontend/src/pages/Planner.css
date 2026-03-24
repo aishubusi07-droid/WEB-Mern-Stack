@@ -1,0 +1,107 @@
+.planner-wrapper {
+  min-height: calc(100vh - 60px);
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #e0f2fe, #eef2ff);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.planner-card {
+  width: 100%;
+  max-width: 750px;
+  background: #ffffff;
+  padding: 45px;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.planner-title {
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #1e3a8a;
+  font-weight: 600;
+}
+
+.planner-input {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.planner-input input {
+  flex: 1;
+  padding: 14px 16px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+.planner-input input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+  outline: none;
+}
+
+.planner-input button {
+  padding: 14px 22px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.planner-input button:hover {
+  background: #2563eb;
+}
+
+.planner-list {
+  margin-top: 10px;
+}
+
+.planner-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8fafc;
+  padding: 14px 18px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  border-left: 5px solid #3b82f6;
+  transition: 0.2s;
+}
+
+.planner-item:hover {
+  transform: translateX(4px);
+}
+
+.planner-item span {
+  font-size: 15px;
+  color: #1e293b;
+}
+
+.planner-item button {
+  background: #ef4444;
+  border: none;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.2s;
+}
+
+.planner-item button:hover {
+  background: #dc2626;
+}
+
+.empty-text {
+  text-align: center;
+  color: #64748b;
+  font-size: 14px;
+}

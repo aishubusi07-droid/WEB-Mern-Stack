@@ -1,0 +1,79 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.sidebar {
+  width: 220px;
+  background: #111;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.profile-name {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.sidebar button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #1f1f1f;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sidebar button:hover {
+  background: #00bcd4;
+}
+
+.logout-btn {
+  background: crimson;
+}
+
+.main-content {
+  flex: 1;
+  padding: 40px;
+}
+
+.welcome-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 40px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.welcome-text h1 {
+  margin: 10px 0;
+}
+
+.score-box {
+  margin-top: 20px;
+  background: #00bcd4;
+  padding: 15px;
+  border-radius: 10px;
+  color: black;
+  width: fit-content;
+}
+
+.profile-image img {
+  width: 180px;
+  border-radius: 50%;
+}
+
+.footer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.7;
+}

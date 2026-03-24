@@ -1,0 +1,14 @@
+.progress-container {
+  padding: 40px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  color: white;
+}
+
+.chart-card {
+  margin-top: 30px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
